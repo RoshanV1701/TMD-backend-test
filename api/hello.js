@@ -11,7 +11,7 @@ module.exports = async (req, res) => {
     return res.status(200).end();
   }
 
-  const dropboxUrl = 'https://www.dropbox.com/scl/fo/4f8nxi1mxbmjvohrxropd/ABytmHRqBtj7m9DikbsAG-0?e=1&preview=day_pattern.csv&rlkey=9krbwmbbmiln2p7qm0hmuo6l3&st=rvo9532j&dl=1';
+  const dropboxUrl = 'https://drive.google.com/uc?export=download&id=1lU6Ljw6QBEn0rbMOhH3HticlIdB-tbNT';
 
   try {
     const response = await axios.get(dropboxUrl, {
